@@ -3212,4 +3212,4 @@ The final system must fundamentally follow:
               RESTOCK       REFURBISH       DISPOSE
 ```
 
-**This state machine, authorization model, QR concept, and returnability rule form the core specification of the project. Any future implementation must preserve them unless the team explicitly decides to change the project requirements.**
+**This state machine, authorization model, QR concept, and returnability rule form the core specification of the project. Any future implementation must preserve them unless the team explicitly decides to change the project requirements.**.
