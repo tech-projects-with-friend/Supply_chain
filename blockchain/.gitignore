@@ -1,5 +1,10 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Environment variables & secrets
 .env
+.env.*
+*.env
 
 # Hardhat files
 /cache

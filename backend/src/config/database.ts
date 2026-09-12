@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const connectDB = async (): Promise<void> => {
-  const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/tracechain";
+  const uri = process.env.MONGO_URI || process.env.MONGODB_URI || "mongodb://localhost:27017/tracechain";
 
   mongoose.connection.on("connected", () => {
     console.log(`MongoDB connected: ${mongoose.connection.host}`);
